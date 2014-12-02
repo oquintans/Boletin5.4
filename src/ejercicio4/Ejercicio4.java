@@ -12,9 +12,7 @@ public class Ejercicio4 {
      */
     public static void main(String[] args) {
         PulpoConPatatas parida1=new PulpoConPatatas();
-        System.out.println("Clientes: "+parida1.atenderClientes(10, 20));
-        parida1.getPatatas();
-        parida1.getPulpo();
+        System.out.println("Clientes: "+parida1.atenderClientes(12, 5));
     }
     
 }
